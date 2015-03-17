@@ -52,4 +52,12 @@ cp -r "$build_dir/.bundle" "$cache_dir/.bundle"
 echo "Debugging apt"
 ls "$build_dir/.apt/usr/"
 
+echo "- bin:"
+ls "$build_dir/.apt/usr/bin/"
+echo "- lib:"
+ls "$build_dir/.apt/usr/lib/"
+echo "- share:"
+ls "$build_dir/.apt/usr/share/"
+
+
 #sed: can't read /tmp/build_c982f0d9-9b66-42e6-a875-0a681a1e47fb/.bundle/*: No such file or directory
